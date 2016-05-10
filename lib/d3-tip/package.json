@@ -1,0 +1,78 @@
+{
+  "_args": [
+    [
+      "d3-tip",
+      "/Users/jnipko"
+    ]
+  ],
+  "_from": "d3-tip@*",
+  "_id": "d3-tip@0.6.7",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/d3-tip",
+  "_nodeVersion": "0.10.32",
+  "_npmUser": {
+    "email": "jkschneider@gmail.com",
+    "name": "jkschneider"
+  },
+  "_npmVersion": "2.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "d3-tip",
+    "raw": "d3-tip",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/d3-tip/-/d3-tip-0.6.7.tgz",
+  "_shasum": "12c0fb045aaa33cb4c9920daf3aa96b08d4caa87",
+  "_shrinkwrap": null,
+  "_spec": "d3-tip",
+  "_where": "/Users/jnipko",
+  "author": {
+    "name": "Justin Palmer"
+  },
+  "bugs": {
+    "url": "https://github.com/Caged/d3-tip/issues"
+  },
+  "dependencies": {},
+  "description": "Tooltips for d3 svg visualizations",
+  "devDependencies": {},
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "dist": {
+    "shasum": "12c0fb045aaa33cb4c9920daf3aa96b08d4caa87",
+    "tarball": "http://registry.npmjs.org/d3-tip/-/d3-tip-0.6.7.tgz"
+  },
+  "gitHead": "4f6b0f4818e1ea88d47ab10cadd99675f2a76343",
+  "homepage": "https://github.com/Caged/d3-tip",
+  "keywords": [
+    "d3",
+    "tooltip"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "jkschneider",
+      "email": "jkschneider@gmail.com"
+    }
+  ],
+  "name": "d3-tip",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caged/d3-tip.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.6.7"
+}

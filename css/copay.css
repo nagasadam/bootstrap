@@ -1,0 +1,226 @@
+
+body {
+  font-family: sans-serif;/*padding-top: 50px;*/
+  width: auto;
+  overflow: auto;
+  background-color: black;
+}
+
+.y.plotaxis  line,
+.y.plotaxis  path {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.x.plotaxis line,
+.x.plotaxis path {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.x.plotaxis text {
+  fill: white;
+}
+
+.y.plotaxis text {
+  fill: white;
+}
+
+.slider1format {
+  font: 11px sans-serif;
+  fill: #999999;
+  color: #ffe600;
+  height: 60px;
+  width: 100%;
+  padding-top: 1%;
+}
+
+.copayanalysis_class {
+  width: 100%;
+  text-align: center;
+}
+
+.mainvis_class {
+  width: 85%;
+  padding-left: 5%;
+  float: left;
+  overflow: auto;
+}
+
+.dropdowns {
+  width: 100%;
+  hieght: 5%;
+  top: 5%;
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-bottom: 40px;
+  float: left;
+  font-size: 12px;
+  color: white;
+}
+
+article {
+  position: absolute;/*float: left;
+  width: 20%;*/
+}
+
+.d3-tip {
+  line-height: 1;
+  font: 11px sans-serif;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+.tip_txt_style {
+  font: 11px;
+  color: #ffe600;
+}
+
+.tip_txt_style0 {
+  font: 12px;
+  color: white;
+  text-align: center;
+}
+
+.tip_txt_style1 {
+  font: 9px;
+  color: #ffe600;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Pull Down Option Lists
+==========================*/
+form.dropdowns {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+}
+
+form.dropdowns > div {
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+form.dropdowns > div.compare {
+    /*min-width: 100px;*/
+}
+
+form.dropdowns > div > label {
+    display: block;
+    color: white;
+    font-size: 13px;
+    width: 100%;
+    transition: 0.2s;
+    margin-bottom: 4px;
+}
+
+form.dropdowns > div select:focus + label {
+    /* do something with the label if fancied */
+}
+
+form.dropdowns select {
+    border: 0 !important;  /*Removes border*/
+    -webkit-appearance: none;  /*Removes default chrome and safari style*/
+    -moz-appearance: none; /* Removes Default Firefox style*/
+    appearance:none;
+    background: #7fd1d5 url(../img/down_arrow_select.png) no-repeat 90% center;
+    width: 170px; /*Width of select dropdown to give space for arrow image*/
+    text-indent: 0.01px; /* Removes default arrow from firefox*/
+    text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
+    color: #000;
+    border-radius: 5px;
+    padding: 5px 5px 5px 10px;
+    box-shadow: inset 0 0 5px rgba(000,000,000, 0.5);
+}
+
+/* bubble chart transformation */
+.map, .bubbles {
+  height: 500px;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.map {
+  background-color: #000;
+  background-size: contain;
+  border: 1px solid #000;
+  position: absolute;
+  transition: all 1s;
+}
+.bubbles {
+  background: #000;
+}
+
+#bubbles > g > g:nth-child(1) {
+  display: none;
+}
+
+.out {
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  transform: matrix(.25, 0, 0 , .25, -330, -200);
+  border: 1px solid #E0E25E;
+}
+
+/*icon enlarge*/
+.icon.icon-enlarge {
+    display: none;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 4em;
+    height: 4em;
+}
+
+.d3-tip.static {
+  display:none;
+}
+
+.out .circle-text {
+  font-size: 32px !important;
+}
+
+svg .circle-physicians.active {
+  fill: #ffcc00;
+
+  /* Theoretically for IE 8 & 9 (more valid) */
+  /* ...but not required as filter works too */
+  /* should come BEFORE filter */
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+
+  /* This works in IE 8 & 9 too */
+  /* ... but also 5, 6, 7 */
+  filter: alpha(opacity=70);
+
+  /* Older than Firefox 0.9 */
+  -moz-opacity:0.7;
+
+  /* Safari 1.x (pre WebKit!) */
+  -khtml-opacity: 0.7;
+
+  /* Modern!
+  /* Firefox 0.9+, Safari 2?, Chrome any?
+  /* Opera 9+, IE 9+ */
+  opacity: 0.7;
+}
+
+.small-bubble ~ text {
+  display: none;
+}
+
+#phyanalysis-bubbles h1 {
+  position: absolute;
+  right: 20%;
+  font-size: x-large;
+  color: darkgray;
+}

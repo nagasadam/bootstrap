@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta charset="utf-8">
+
+  <head>
+    <!--<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="../css/dc.css">-->
+    <link rel="stylesheet" type="text/css" href="../css/case_new.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="../css/newslider.css" >
+
+    <link rel="stylesheet" type="text/css" href="../css/payercomp.css" >
+
+  </head>
+
+
+  <body>
+
+    <div class="background_home">
+      <div class="header">
+        <div class="piller_head left">
+          <div>
+          <span>CASE<sup>&reg;</sup></span>
+          </div>
+          <div class="full_case"> <span><span >C</span>ommercial</span> <span><span >A</span>nalytics</span> <span><  span >S</span>uit<span>e<sup>&reg;</sup></span></span></div>
+          <div class="clearFix"></div>
+        </div>
+
+        <div class="main_heading">Payer Comparison View</div>
+
+        <div class="logo_below right"><img src="../img/EYLogo.png" /></div>
+        <div class="navigation right ">
+          <a href="javascript:this.location = '/index.html'">
+          <div class="navheader left active"> Home </div>
+          </a>
+          <a href="javascript:this.location = 'pillar.html'">
+          <div class="navheader left"> Pillars </div>
+          </a>
+          <div class="clearFix"></div>
+        </div>
+
+        <div class="clearFix"></div>
+        <div class="right wifi"> <span><i class="fa fa-wifi"></i></span> </div>
+        <div class="clearFix"></div>
+
+      </div>
+    </div>
+
+
+    <form class="dropdowns clearfix">
+      <div id="dropDown_TC">
+      <label for="dropDown_TC">Therapeutic Class</label>
+       </div>
+        <div id="dropDown_SUBTC">
+        <label for="dropDown_SUBTC">Sub Therapeutic Class</label>
+      </div>
+      <div id="dropDown_SEGMENT">
+        <label for="dropDown_SEGMENT">Segment</label>
+       </div>
+      <div id="dropDown_MNFCTRR">
+        <label for="dropDown_MNFCTRR">Biopharma Company</label>
+      </div>
+      <div id="dropDown_DRUG_NAME">
+        <label for="dropDown_DRUG_NAME">Product Name</label>
+      </div>
+
+      <div class="compare">
+        <label for="compare">Compare</label>
+        <input id="compare-checkbox" name="compare-checkbox" class="switch-input" type="checkbox" />
+      </div>
+      <div class="clearFix"></div>
+    </form>
+
+    <section id="mainvis" class="mainvis_class">
+    <section id="dateslider" class="slider1format"></section>
+
+<!--
+      <section id="payercomp" class="payercomp_class"></section>
+
+      <div class='table table1' id='table1'>
+        <table id="data-table-agg" class="table table1 table-striped table-hover cell-border">
+        </table>
+      </div> -->
+
+    <section id="payercomp" class="payercomp_class"></section>
+    <table id="data-table-agg" class="table table1 table-striped table-hover cell-border"></table>
+
+    </section>
+
+    <!-- loader animation -->
+    <div class="loader">
+    <div class="ball"></div>
+    <div class="ball1"></div>
+    </div>
+
+    <script type='text/javascript' src="../data/SymphonyData.js"></script>
+    <script type='text/javascript' src="../js/utility.js"></script>
+    <script type='text/javascript' src="../lib/d3/d3.v3.js"></script>
+    <script type='text/javascript' src="../js/newdateslider.js"></script>
+    <script type='text/javascript' src="../js/payercomp_utility.js"></script>
+    <script type='text/javascript' src="../lib/jquery-1.12.1.min.js"></script>
+
+    <script type='text/javascript' src="../lib/bootstrap.min.js"></script>
+    <script type='text/javascript' src="../lib/jquery.dataTables.min.js"></script>
+    <script type='text/javascript' src="../js/tooltip.js"></script>
+
+    <script type='text/javascript' src="../js/payercomp.js"></script>
+
+  </body>
+</html>
+

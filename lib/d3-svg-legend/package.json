@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      "d3-svg-legend",
+      "/Users/jnipko/Sites"
+    ]
+  ],
+  "_from": "d3-svg-legend@*",
+  "_id": "d3-svg-legend@1.8.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/d3-svg-legend",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "email": "lulnlul@gmail.com",
+    "name": "susielu"
+  },
+  "_npmVersion": "2.11.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "d3-svg-legend",
+    "raw": "d3-svg-legend",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/d3-svg-legend/-/d3-svg-legend-1.8.0.tgz",
+  "_shasum": "511c4f89d19d9ca5d59e655e13bf1f465f151c86",
+  "_shrinkwrap": null,
+  "_spec": "d3-svg-legend",
+  "_where": "/Users/jnipko/Sites",
+  "author": {
+    "name": "Susie Lu",
+    "url": "http://www.susielu.com"
+  },
+  "bugs": {
+    "url": "https://github.com/susielu/d3-legend/issues"
+  },
+  "dependencies": {},
+  "description": "A legend component for d3. Given a d3.scale it can create either a color legend, size legend, or symbol legend.",
+  "devDependencies": {
+    "chai": "3.4.1",
+    "grunt": "0.4.5",
+    "grunt-browserify": "3.8.0",
+    "grunt-contrib-uglify": "0.9.1",
+    "marked": "0.3.5",
+    "mocha": "2.2.5",
+    "stringify": "3.1.0"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dist": {
+    "shasum": "511c4f89d19d9ca5d59e655e13bf1f465f151c86",
+    "tarball": "http://registry.npmjs.org/d3-svg-legend/-/d3-svg-legend-1.8.0.tgz"
+  },
+  "files": [
+    "d3-legend.*",
+    "index.js",
+    "no-extend.js",
+    "src"
+  ],
+  "gitHead": "311eadd59c41f10a5e495a1953d54e804f513ebb",
+  "homepage": "http://d3-legend.susielu.com",
+  "keywords": [
+    "d3",
+    "legend"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "susielu",
+      "email": "susie.lu.shan@gmail.com"
+    }
+  ],
+  "name": "d3-svg-legend",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "d3": "^3.0.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susielu/d3-legend.git"
+  },
+  "scripts": {
+    "prepublish": "npm t",
+    "test": "mocha test/test.js"
+  },
+  "version": "1.8.0"
+}

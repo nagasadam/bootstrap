@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+
+<head>
+<meta name="apple-mobile-web-app-capable"content="yes">
+<meta name="apple-mobile-web-app-status-bar-style"content="black">
+<meta charset="utf-8">
+
+<script src="../data/PhysicianAnalysisDataNew.js"></script>
+<script src="../lib/d3/d3.v3.js"></script>
+<!-- <script src="../lib/d3-svg-legend/d3-legend.js"></script> -->
+<script src="../lib/d3-tip/index.js"></script>
+<script src="../js/utility.js"></script>
+<script src="../js/states.js"></script>
+<script src="../js/cities.js"></script>
+<script src="../js/newdateslider.js"></script>
+<script type='text/javascript' src="../lib/jquery-1.12.1.min.js"></script>
+
+
+<link rel="stylesheet"type="text/css"href="../css/case_new.css">
+<link href="../css/font-awesome.css"type="text/css"rel="stylesheet"/>
+<link rel="stylesheet"type="text/css"href="../css/newslider.css">
+<link rel="stylesheet"type="text/css"href="../css/copay.css">
+
+</head>
+
+
+
+<body>
+
+<div class="background_home">
+  <div class="header">
+    <div class="piller_head left">
+      <div>
+      <span>CASE<sup>&reg;</sup></span>
+      </div>
+      <div class="full_case"> <span><span >C</span>ommercial</span> <span><span >A</span>nalytics</span> <span><  span >S</span>uit<span>e<sup>&reg;</sup></span></span></div>
+      <div class="clearFix"></div>
+    </div>
+
+    <div class="main_heading">Physician Analysis View</div>
+
+    <div class="logo_below right"><img src="../img/EYLogo.png" /></div>
+    <div class="navigation right ">
+      <a href="javascript:this.location = '/index.html'">
+      <div class="navheader left active"> Home </div>
+      </a>
+      <a href="javascript:this.location = 'pillar.html'">
+      <div class="navheader left"> Pillars </div>
+      </a>
+      <div class="clearFix"></div>
+    </div>
+
+    <div class="clearFix"></div>
+    <div class="right wifi"> <span><i class="fa fa-wifi"></i></span> </div>
+    <div class="clearFix"></div>
+
+  </div>
+</div>
+
+<form class="dropdowns clearfix">
+  <div id="dropDown_TC">
+  <label for="dropDown_TC">Therapeutic Class</label>
+  </div>
+  <div id="dropDown_SUBTC">
+  <label for="dropDown_SUBTC">Sub Therapeutic Class</label>
+  </div>
+  <div id="dropDown_SEGMENT">
+  <label for="dropDown_SEGMENT">Segment</label>
+  </div>
+  <div id="dropDown_MNFCTRR">
+  <label for="dropDown_MNFCTRR">Biopharma Company</label>
+  </div>
+  <div id="dropDown_DRUG_NAME">
+  <label for="dropDown_DRUG_NAME">Product Name</label>
+  </div>
+</form>
+
+<section id="mainvis"class="mainvis_class">
+<section id="dateslider"class="slider1format"></section>
+<section id="phyanalysis"class="map phyanalysis_class"><img class="icon icon-enlarge" src="../fonts/enlarge.svg" alt="Expand Map"></section>
+<section id="phyanalysis-bubbles"class="bubbles phyanalysis_class-bubbles"><h1 id="state-city"></h1></section>
+</section>
+
+<script src="../js/physician-analysis.js"></script>
+
+</body>
+</html>
